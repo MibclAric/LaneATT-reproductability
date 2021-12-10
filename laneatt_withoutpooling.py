@@ -79,31 +79,7 @@ class LaneATT(nn.Module):
         batch_anchor_features = batch_features
         batch_anchor_features = torch.cat((batch_anchor_features,batch_features),dim=0)
         batch_anchor_features = torch.cat((batch_anchor_features,batch_features),dim=0)
-        batch_anchor_features = torch.cat((batch_anchor_features,batch_features),dim=0)
-        batch_anchor_features = torch.cat((batch_anchor_features,batch_features),dim=0)
-        batch_anchor_features = torch.cat((batch_anchor_features,batch_features),dim=0)
-        batch_anchor_features = torch.cat((batch_anchor_features,batch_features),dim=0)
-        batch_anchor_features = torch.cat((batch_anchor_features,batch_features),dim=0)
-        batch_anchor_features = torch.cat((batch_anchor_features,batch_features),dim=0)
-        batch_anchor_features = torch.cat((batch_anchor_features,batch_features),dim=0)
-        batch_anchor_features = torch.cat((batch_anchor_features,batch_features),dim=0)
-        batch_anchor_features = torch.cat((batch_anchor_features,batch_features),dim=0)
-        batch_anchor_features = torch.cat((batch_anchor_features,batch_features),dim=0)
-        batch_anchor_features = torch.cat((batch_anchor_features,batch_features),dim=0)
-        batch_anchor_features = torch.cat((batch_anchor_features,batch_features),dim=0)
-        batch_anchor_features = torch.cat((batch_anchor_features,batch_features),dim=0)
-        batch_anchor_features = torch.cat((batch_anchor_features,batch_features),dim=0)
-        batch_anchor_features = torch.cat((batch_anchor_features,batch_features),dim=0)
-        batch_anchor_features = torch.cat((batch_anchor_features,batch_features),dim=0)
-        batch_anchor_features = torch.cat((batch_anchor_features,batch_features),dim=0)
-        batch_anchor_features = torch.cat((batch_anchor_features,batch_features),dim=0)
-        batch_anchor_features = torch.cat((batch_anchor_features,batch_features),dim=0)
-        batch_anchor_features = torch.cat((batch_anchor_features,batch_features),dim=0)
-        batch_anchor_features = torch.cat((batch_anchor_features,batch_features),dim=0)
-        batch_anchor_features = torch.cat((batch_anchor_features,batch_features),dim=0)
 
-
-        
         batch_anchor_features = batch_anchor_features.view(-1, self.anchor_feat_channels * self.fmap_h)
         
     
